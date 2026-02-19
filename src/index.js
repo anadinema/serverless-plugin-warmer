@@ -1,5 +1,5 @@
 /**
- * @module serverless-plugin-warmup
+ * @module serverless-plugin-warmer
  *
  * @see {@link https://serverless.com/framework/docs/providers/aws/guide/plugins/}
  *
