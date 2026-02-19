@@ -23,6 +23,7 @@ class GeneratedFunctionTester {
 			},
 		});
 	}
+
 	/* eslint-enable max-classes-per-file, no-multi-assign */
 
 	generatedWarmupFunction() {
@@ -52,10 +53,12 @@ class GeneratedFunctionTester {
 		this.generatedWarmupFunction()(
 			{
 				'@aws-sdk/client-lambda': this.aws,
-				'@smithy/node-http-handler': { NodeHttpHandler: class NodeHttpHandler {} },
 			},
 			args.process || { env: {} },
-			args.console || { log: () => {}, error: () => {} },
+			args.console || {
+				log: () => {},
+				error: () => {},
+			},
 		);
 	}
 }

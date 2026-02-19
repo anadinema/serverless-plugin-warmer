@@ -4,7 +4,7 @@
 
 Keep your lambdas warm during winter.
 
-> [!INFO]
+> [!NOTE]
 > This project is a fork from [serverless-plugin-warmup by juanjoDiaz](https://github.com/juanjoDiaz/serverless-plugin-warmup).
 > Since the original project is updated for Nodejs.24 runtime, there are some issues which as causing the plugin to fail.
 > This fork is a temporary solution until the original project is updated.
