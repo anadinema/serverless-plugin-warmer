@@ -1,6 +1,6 @@
 # Serverless Warmer Plugin ♨
 [![Node.js CI](https://github.com/anadinema/serverless-plugin-warmer/actions/workflows/on-push.yaml/badge.svg)](https://github.com/anadinema/serverless-plugin-warmer/actions/workflows/on-push.yaml)
-[![license](https://img.shields.io/npm/l/serverless-plugin-warmer.svg)](https://raw.githubusercontent.com/anadinema/serverless-plugin-warmer/main/LICENSE)
+[![license](https://img.shields.io/npm/l/serverless-plugin-warmer)](https://raw.githubusercontent.com/anadinema/serverless-plugin-warmer/main/LICENSE)
 
 Keep your lambdas warm during winter.
 
