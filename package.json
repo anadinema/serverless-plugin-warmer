@@ -1,7 +1,7 @@
 {
-	"name": "serverless-plugin-warmup",
+	"name": "serverless-plugin-warmer",
 	"version": "8.4.0",
-	"description": "Keep your lambdas warm during winter.",
+	"description": "Keep your lambdas warm during winter",
 	"main": "src/index.js",
 	"scripts": {
 		"prepare": "husky",
@@ -11,25 +11,26 @@
 		"test": "jest test",
 		"test-with-coverage": "jest --coverage --collectCoverageFrom=src/**/*.js test"
 	},
-	"author": "Juanjo Diaz <juanjo.diazmo@gmail.com>",
+	"author": "Anadi Nema <anadi.nema@outlook.com>",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/juanjoDiaz/serverless-plugin-warmup.git"
+		"url": "git+https://github.com/anadinema/serverless-plugin-warmer.git"
 	},
 	"keywords": [
 		"serverless plugin warm up lambdas",
-		"serverless warmup",
+		"serverless warmer",
 		"serverless plugin",
 		"lambda serverless",
+		"lambda warmer",
 		"warm lambda",
 		"lambda coldstart",
 		"lambda cold"
 	],
 	"bugs": {
-		"url": "https://github.com/juanjoDiaz/serverless-plugin-warmup/issues"
+		"url": "https://github.com/anadinema/serverless-plugin-warmup/issues"
 	},
-	"homepage": "https://github.com/juanjoDiaz/serverless-plugin-warmup",
+	"homepage": "https://github.com/anadinema/serverless-plugin-warmup",
 	"devDependencies": {
 		"@biomejs/biome": "2.3.11",
 		"husky": "^9.1.7",

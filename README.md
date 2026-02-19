@@ -1,11 +1,13 @@
-# Serverless WarmUp Plugin ♨
-[![npm version][npm-version-badge]][npm-version-badge-url]
-[![npm monthly downloads][npm-downloads-badge]][npm-version-badge-url]
-[![Node.js CI](https://github.com/juanjoDiaz/serverless-plugin-warmup/actions/workflows/on-push.yaml/badge.svg)](https://github.com/juanjoDiaz/serverless-plugin-warmup/actions/workflows/on-push.yaml)
-[![Coverage Status][coveralls-badge]][coveralls-badge-url]
-[![license](https://img.shields.io/npm/l/serverless-plugin-warmup.svg)](https://raw.githubusercontent.com/juanjoDiaz/serverless-plugin-warmup/main/LICENSE)
+# Serverless Warmer Plugin ♨
+[![Node.js CI](https://github.com/anadinema/serverless-plugin-warmer/actions/workflows/on-push.yaml/badge.svg)](https://github.com/anadinema/serverless-plugin-warmer/actions/workflows/on-push.yaml)
+[![license](https://img.shields.io/npm/l/serverless-plugin-warmer.svg)](https://raw.githubusercontent.com/anadinema/serverless-plugin-warmer/main/LICENSE)
 
 Keep your lambdas warm during winter.
+
+> [!INFO]
+> This project is a fork from [serverless-plugin-warmup by juanjoDiaz](https://github.com/juanjoDiaz/serverless-plugin-warmup).
+> Since the original project is updated for Nodejs.24 runtime, there are some issues which as causing the plugin to fail.
+> This fork is a temporary solution until the original project is updated.
 
 **Requirements:**
 * Node *v20.x* or higher
@@ -21,14 +23,14 @@ WarmUp solves *cold starts* by creating a scheduled lambda (the warmer) that inv
 Install via npm in the root of your Serverless service:
 
 ```sh
-npm install --save-dev serverless-plugin-warmup
+npm install --save-dev serverless-plugin-warmer
 ```
 
 Add the plugin to the `plugins` array in your Serverless `serverless.yaml`:
 
 ```yaml
 plugins:
-  - serverless-plugin-warmup
+  - serverless-plugin-warmer
 ```
 
 ## Configuration
@@ -606,11 +608,9 @@ Help us making this plugin better and future-proof.
 
 This software is released under the MIT license. See [the license file](LICENSE) for more details.
 
-[npm-version-badge]: https://badge.fury.io/js/serverless-plugin-warmup.svg
-[npm-version-badge-url]: https://www.npmjs.com/package/serverless-plugin-warmup
-[npm-downloads-badge]: https://img.shields.io/npm/dm/serverless-plugin-warmup.svg
-[coveralls-badge]: https://coveralls.io/repos/juanjoDiaz/serverless-plugin-warmup/badge.svg?branch=main
-[coveralls-badge-url]: https://coveralls.io/r/juanjoDiaz/serverless-plugin-warmup?branch=main
+[npm-version-badge]: https://badge.fury.io/js/serverless-plugin-warmer.svg
+[npm-version-badge-url]: https://www.npmjs.com/package/serverless-plugin-warmer
+[npm-downloads-badge]: https://img.shields.io/npm/dm/serverless-plugin-warmer.svg
 
 ## Acknowledgements
 
